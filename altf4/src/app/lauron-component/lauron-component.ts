@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './lauron-component.scss',
   templateUrl: './lauron-component.html',
 })
-export class LauronComponent {}
+export class LauronComponent {
+  fullname: string = 'Patrick James S. Lauron';
+}

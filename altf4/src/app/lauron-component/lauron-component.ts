@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './lauron-component.html',
 })
 export class LauronComponent {
-  fullname: string = 'Patrick James S. Lauron';
+  fullname = 'Patrick James S. Lauron';
+  photo = 'assets/images/lauron.jpg';
 }

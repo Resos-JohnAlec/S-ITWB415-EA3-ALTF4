@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './revillas-component.scss',
 })
 export class RevillasComponent {
-  fullname: string = 'Eunice Grace O. Revillas';
+  fullname = 'Eunice Grace O. Revillas';
+  photo = 'assets/images/revillas.jpg';
 }

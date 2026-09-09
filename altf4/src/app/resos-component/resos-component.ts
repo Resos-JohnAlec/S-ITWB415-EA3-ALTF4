@@ -9,4 +9,10 @@ import { Component } from '@angular/core';
 export class ResosComponent {
   fullname = 'John Alec L. Resos';
   photo = '/images/resos.jpg';
+  description = '';
+
+  showDescription() {
+    this.description =
+      'I am an IT student trying to learn more about web development and creating useful applications.';
+  }
 }

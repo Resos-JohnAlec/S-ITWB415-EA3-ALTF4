@@ -9,4 +9,10 @@ import { Component } from '@angular/core';
 export class RevillasComponent {
   fullname = 'Eunice Grace O. Revillas';
   photo = 'assets/images/revillas.jpg';
+  description = '';
+
+  showDescription() {
+    this.description =
+      'I’m an IT student continuously learning web development. Even if progress takes time, I give my best effort.';
+  }
 }

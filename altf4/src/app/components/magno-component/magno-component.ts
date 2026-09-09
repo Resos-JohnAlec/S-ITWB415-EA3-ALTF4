@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './magno-component.scss',
 })
 export class MagnoComponent {
-  name = 'Bianca [Your Middle Initial]. Magno';
+  name = 'Bianca H. Magno';
+  photo = `images/magno.jpg`;
 }

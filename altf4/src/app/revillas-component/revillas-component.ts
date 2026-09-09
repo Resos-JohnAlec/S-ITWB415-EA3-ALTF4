@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './revillas-component.html',
   styleUrl: './revillas-component.scss',
 })
-export class RevillasComponent {}
+export class RevillasComponent {
+  fullname: string = 'Eunice Grace O. Revillas';
+}

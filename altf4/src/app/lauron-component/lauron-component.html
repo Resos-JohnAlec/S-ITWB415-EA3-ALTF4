@@ -1,8 +1,12 @@
-<h2>{{ fullname }}</h2>
-<img class="lauron-photo" [src]="photo" [alt]="fullname">
-
-<button type="button" (click)="showDescription()">
-  Show Description
-</button>
-
-<p>{{ description }}</p>
+<div class="profile-card">
+    <img class="profile-photo" [src]="photo" [alt]="fullname">
+    <div class="profile-content">
+        <h2>{{ fullname }}</h2>
+        <p class="subtitle">IT student · Web development</p>
+        <button mat-raised-button type="button" (click)="showDescription()" [attr.aria-expanded]="description !== ''"
+            aria-controls="lauron-description">
+            About me
+        </button>
+        <p id="lauron-description" class="description">{{ description }}</p>
+    </div>
+</div>

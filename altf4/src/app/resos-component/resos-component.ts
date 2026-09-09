@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class ResosComponent {
   fullname = 'John Alec L. Resos';
+  photo = '/images/resos.jpg';
 }

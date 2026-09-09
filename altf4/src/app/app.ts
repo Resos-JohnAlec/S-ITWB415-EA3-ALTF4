@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { ResosComponent } from './resos-component/resos-component';
 import { MagnoComponent } from './components/magno-component/magno-component';
 import { RevillasComponent } from './revillas-component/revillas-component';  
+import { LauronComponent } from './lauron-component/lauron-component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ResosComponent, MagnoComponent, RevillasComponent],
+  imports: [RouterOutlet, ResosComponent, MagnoComponent, RevillasComponent, LauronComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

@@ -9,7 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class LauronComponent {
   fullname = 'Patrick James S. Lauron';
-  photo = 'assets/images/lauron.jpg';
+  photo = '/images/lauron.jpg';
   description = '';
 
   showDescription() {

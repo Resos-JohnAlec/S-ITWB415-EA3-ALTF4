@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './magno-component.html',
   styleUrl: './magno-component.scss',
 })
-export class MagnoComponent {}
+export class MagnoComponent {
+  name = 'Bianca [Your Middle Initial]. Magno';
+}

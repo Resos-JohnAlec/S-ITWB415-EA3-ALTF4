@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-magno-component',
-  imports: [],
+  imports: [MatButtonModule],
   templateUrl: './magno-component.html',
   styleUrl: './magno-component.scss',
 })

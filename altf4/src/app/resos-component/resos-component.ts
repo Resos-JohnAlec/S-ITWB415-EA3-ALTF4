@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-resos-component',
-  imports: [],
+  imports: [MatButtonModule],
   templateUrl: './resos-component.html',
   styleUrl: './resos-component.scss',
 })

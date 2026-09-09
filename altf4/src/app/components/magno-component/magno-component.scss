@@ -5,6 +5,23 @@
   margin-top: 24px;
 }
 
+button {
+  width: 100%;
+}
+
+.description:empty {
+  display: none;
+}
+
+.description {
+  margin: 20px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid #ece8f1;
+  color: #62596f;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
 .profile-card {
   overflow: hidden;
   background: #fff;

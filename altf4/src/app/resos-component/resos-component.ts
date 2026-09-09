@@ -6,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './resos-component.html',
   styleUrl: './resos-component.scss',
 })
-export class ResosComponent {}
+export class ResosComponent {
+  fullname = 'John Alec L. Resos';
+}

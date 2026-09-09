@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class RevillasComponent {
   fullname = 'Eunice Grace O. Revillas';
+  photo = '/images/revillas.jpg';
 }

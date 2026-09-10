@@ -14,6 +14,7 @@ export class ResosComponent {
 
   showDescription() {
     this.description =
-      'I am an IT student trying to learn more about web development and creating useful applications.';
+      'I am an IT student trying to learn more about web development ' + 
+      'and creating useful applications.';
   }
 }

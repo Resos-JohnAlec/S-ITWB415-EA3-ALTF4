@@ -1,13 +1,19 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ResosComponent } from './resos-component/resos-component';
+import { ResosComponent } from './components/resos-component/resos-component';
 import { MagnoComponent } from './components/magno-component/magno-component';
-import { RevillasComponent } from './revillas-component/revillas-component';  
-import { LauronComponent } from './lauron-component/lauron-component';
+import { RevillasComponent } from './components/revillas-component/revillas-component';  
+import { LauronComponent } from './components/lauron-component/lauron-component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ResosComponent, MagnoComponent, RevillasComponent, LauronComponent],
+  imports: [
+    RouterOutlet,
+    ResosComponent,
+    MagnoComponent,
+    RevillasComponent,
+    LauronComponent,
+  ],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })

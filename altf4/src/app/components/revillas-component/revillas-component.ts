@@ -14,6 +14,7 @@ export class RevillasComponent {
 
   showDescription() {
     this.description = 
-    'I’m an IT student continuously learning web development. Even if progress takes time, I give my best effort.';
+    'I’m an IT student continuously learning web development. ' + 
+    'Even if progress takes time, I give my best effort.;'
   }
 }

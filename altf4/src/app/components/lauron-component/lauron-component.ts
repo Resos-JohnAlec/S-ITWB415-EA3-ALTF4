@@ -14,6 +14,7 @@ export class LauronComponent {
 
   showDescription() {
     this.description =
-      'I am an IT student passionate about building things for the web. I may not know everything yet, but I show up ready to learn.';
+      'I am an IT student passionate about building things for the web. ' + 
+      'I may not know everything yet, but I show up ready to learn.';
   }
 }

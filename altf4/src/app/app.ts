@@ -18,5 +18,5 @@ import { LauronComponent } from './components/lauron-component/lauron-component'
   styleUrl: './app.scss'
 })
 export class App {
-  protected readonly title = signal('altf4');
+  protected readonly title = signal('ALTF4 - S-ITWB415-EA3');
 }

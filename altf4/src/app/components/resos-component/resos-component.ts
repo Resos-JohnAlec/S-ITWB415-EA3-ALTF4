@@ -1,20 +1,20 @@
-import { Component } from '@angular/core';
-import { MatButtonModule } from '@angular/material/button';
+import { Component, signal } from '@angular/core';
+import { MemberPreview } from '../../shared/member-preview/member-preview';
 
 @Component({
   selector: 'app-resos-component',
-  imports: [MatButtonModule],
+  imports: [MemberPreview],
   templateUrl: './resos-component.html',
   styleUrl: './resos-component.scss',
 })
 export class ResosComponent {
-  fullname = 'John Alec L. Resos';
-  photo = '/images/resos.jpg';
-  description = '';
-
-  showDescription() {
-    this.description =
-      'I am an IT student trying to learn more about web development ' + 
-      'and creating useful applications.';
-  }
+  name = signal('John Alec L. Resos');
+  image = signal('./images/resos.jpg');
+  role = signal('IT student · Web development');
+  description = signal(
+    'I am an IT student trying to learn more about web development ' +
+      'and creating useful applications.',
+  );
+  github = signal(`https://github.com/Resos-JohnAlec`);
 }
+

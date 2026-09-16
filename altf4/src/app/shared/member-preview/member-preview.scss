@@ -1,6 +1,6 @@
 :host {
   display: block;
-  max-width: 340px;
+  max-width: 290px;
 }
 
 .profile-card {
@@ -50,8 +50,10 @@ h2 {
 }
 
 .description-button {
+  display: block;
   width: 80%;
   padding: 10px;
+  margin: 0 auto;
   border: 1px solid #84a98c;
   border-radius: 8px;
   color: #52796f;

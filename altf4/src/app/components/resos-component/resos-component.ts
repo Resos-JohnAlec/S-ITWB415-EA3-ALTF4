@@ -13,7 +13,7 @@ export class ResosComponent {
   role = signal('IT student · Web development');
   description = signal(
     'I am an IT student trying to learn more about web development ' +
-      'and creating useful applications.',
+    'and creating useful applications.',
   );
   github = signal(`https://github.com/Resos-JohnAlec`);
 }

@@ -13,7 +13,7 @@ export class LauronComponent {
   role = signal('IT student · Web development');
   description = signal(
     'I am an IT student passionate about building things for the web. ' +
-      'I may not know everything yet, but I show up ready to learn.',
+    'I may not know everything yet, but I show up ready to learn.',
   );
   github = signal(`https://github.com/Lauron-PatrickJames`);
 }
